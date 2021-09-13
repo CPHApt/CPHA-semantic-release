@@ -20,6 +20,6 @@ jobs:
       # docker command available directly in the virtual environment.
       - name: build and publish
         run: |
-          docker login --username CPHA --password ${{ secrets.docker_access_token }}
-          docker build --tag CPHA/cpha-semantic-release:latest .
-          docker push CPHA/cpha-semantic-release:latest
+          docker login --username cphapt --password ${{ secrets.docker_access_token }}
+          docker build --tag cphapt/cpha-semantic-release:latest .
+          docker push cphapt/cpha-semantic-release:latest
