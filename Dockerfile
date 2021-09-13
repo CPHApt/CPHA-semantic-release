@@ -1,5 +1,10 @@
 FROM node:alpine
 
+LABEL org.opencontainers.image.source="https://github.com/CPHApt/CPHA-semantic-release"
+LABEL Maintainer="CPHApt"
+LABEL Description="CPHA-Semantic-release"
+
+LABEL version="1.0.0"
 # node:alpine doesn't come with certificates or git, so we need to grab those
 RUN apk add --no-cache ca-certificates git
 
