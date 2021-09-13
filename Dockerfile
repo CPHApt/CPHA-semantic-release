@@ -51,8 +51,9 @@ RUN npm install -g \
   #semantic-release-gcr@latest \
   semantic-release-gerrit@latest \
   semantic-release-slack-bot@latest \
-  semantic-release-verify-deps@latest
+  semantic-release-verify-deps@latest \
   #semantic-release-vsce@latest
+  conventional-changelog-conventionalcommits@latest
 
 # community configs
 # RUN npm install -g \
