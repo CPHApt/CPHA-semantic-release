@@ -53,7 +53,7 @@ RUN npm install -g \
   semantic-release-slack-bot@latest \
   semantic-release-verify-deps@latest \
   #semantic-release-vsce@latest
-  conventional-changelog-conventionalcommits@latest
+  conventional-changelog-conventionalcommits
 
 # community configs
 # RUN npm install -g \
